@@ -30,10 +30,12 @@ menus:
         pageId: welcome
 pages:
   - _ref: sample.yml
+  - _ref: demo.yml
   - id: welcome
     type: PageHeaderMenu
     properties:
-      title: Welcome
+      title: Welcomes
+    
     areas:
       content:
         justify: center
@@ -67,6 +69,7 @@ pages:
                               params:
                                 url: https://docs.lowdefy.com
                                 newTab: true
+      
       footer:
         blocks:
           - id: footer

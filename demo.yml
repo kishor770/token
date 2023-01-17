@@ -1,0 +1,9 @@
+id: demo-one
+type: PageHeaderMenu
+properties:
+  title: demo
+blocks:  
+  - id: block_data
+    type: Alert
+    properties:
+      message: Alerts help to highlight important information.
